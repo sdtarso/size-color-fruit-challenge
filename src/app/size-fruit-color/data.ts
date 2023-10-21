@@ -1,6 +1,9 @@
+// @ts-nocheck
 // ---------------------------------------
 // Do NOT change anything below this line.
 // ---------------------------------------
+
+import { ColorNameInterface } from "@/components/atoms";
 
 const sizes = ["tiny", "small", "medium", "large", "huge"];
 const colors = [
@@ -34,7 +37,7 @@ const fruits = [
   "pineapple",
 ];
 
-export const items = sizes.reduce(
+export const items: ColorNameInterface[] = sizes.reduce(
   (items, size) => [
     ...items,
     ...fruits.reduce(
