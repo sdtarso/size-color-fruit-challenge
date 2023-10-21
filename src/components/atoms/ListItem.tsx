@@ -17,9 +17,12 @@ export const ListItem = ({
   <li
     onClick={handleClick}
     key={name}
-    className={`List__item List__item--${color} ${
-      isActive ? "List__item--active" : ""
-    }`}
+    className={[
+      "flex items-center justify-center",
+      "text-center text-white rounded p-1 text-sm cursor-pointer",
+      `bg-${color}-500`,
+      isActive ? "font-bold shadow-sfc-active" : "",
+    ].join(" ")}
   >
     {name}
   </li>

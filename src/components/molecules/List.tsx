@@ -28,11 +28,17 @@ export const List = ({
     ));
   }, [isFavorites, items, handleClick, selecteds]);
   return (
-    <>
-      {isFavorites ? <h3>My Favorites</h3> : null}
-      <ul className={`List ${isFavorites ? "List--favorites" : ""}`}>
+    <div>
+      {isFavorites ? <h3 className="text-xl font-semibold mb-2">My Favorites</h3> : null}
+      <ul
+        className={[
+          "grid gap-4 grid-cols-size-fruit-color auto-rows-tiles",
+          "capitalize",
+          isFavorites ? "border-b pb-8 mb-8" : "",
+        ].join(" ")}
+      >
         {memoized}
       </ul>
-    </>
+    </div>
   );
 };
