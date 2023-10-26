@@ -5,12 +5,19 @@ export default function Home() {
   const projects: TileInterface[] = [
     {
       name: "Size Color Fruit",
+      path: "size-fruit-color",
       score: 5,
       time: 2,
     },
+    {
+      name: "Lazy Load Image Component",
+      path: "lazy-load",
+      score: 3,
+      time: 1,
+    },
   ];
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
+    <main className="flex min-h-screen flex-col items-center p-4 lg:p-24">
       <h1 className="text-4xl font-semibold mb-8">Tech Challenges</h1>
       <div className="mb-12 text-center">
         <p className="mb-4">

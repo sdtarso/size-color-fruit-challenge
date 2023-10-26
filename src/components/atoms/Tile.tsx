@@ -2,15 +2,16 @@ import Link from "next/link";
 
 export interface TileInterface {
   name: string;
+  path: string;
   score: 1 | 2 | 3 | 5 | 8 | 13;
   time: number;
 }
 
 interface TileProps extends TileInterface {}
 
-export const Tile = ({ name, score, time }: TileProps) => (
+export const Tile = ({ name, path, score, time }: TileProps) => (
   <Link
-    href="/size-fruit-color"
+    href={path}
     className="rounded-lg p-2 border flex flex-col justify-center text-white text-center bg-black bg-opacity-50 hover:bg-opacity-70 transition-all"
   >
     <h3 className="text-xl font-medium ">{name}</h3>
