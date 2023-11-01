@@ -15,6 +15,12 @@ export default function Home() {
       score: 3,
       time: 1,
     },
+    {
+      name: "Deep Merge Objects",
+      path: "deep-merge-objects",
+      score: 5,
+      time: 3,
+    },
   ];
   return (
     <main className="flex min-h-screen flex-col items-center p-4 lg:p-24">
