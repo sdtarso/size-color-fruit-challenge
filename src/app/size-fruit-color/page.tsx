@@ -17,7 +17,10 @@ export default function SizeFruitColor() {
   }, []);
   return (
     <div className="px-4">
-      <PageHeader title="Size Color Fruit Challenge" />
+      <PageHeader
+        title="Size Color Fruit Challenge"
+        path="size-fruit-color/page.tsx"
+      />
       <p className="mb-4">
         This project was based on{" "}
         <a

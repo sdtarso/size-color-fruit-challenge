@@ -9,7 +9,7 @@ export const PageHeader = ({ title, path }: PageHeaderProps) => (
     <PageTitle title={title} />
     <a
       className="ml-auto text-sm font-mono"
-      href={`https://github.com/sdtarso/tech-challenge/${path || ""}`}
+      href={`https://github.com/sdtarso/tech-challenge/blob/main/src/app/${path || ""}`}
       target="_blank"
     >
       source code

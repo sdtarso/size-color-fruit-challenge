@@ -14,7 +14,10 @@ export default function DeepMergeObjects() {
   };
   return (
     <div className="p-4">
-      <PageHeader title="Deep Merge Objects" />
+      <PageHeader
+        title="Deep Merge Objects"
+        path="deep-merge-objects/page.tsx"
+      />
       <p className="mb-4">
         must create a function in JavaScript that performs a deep merge of two
         objects. The function should combine the properties of the two objects,
