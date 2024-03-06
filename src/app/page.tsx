@@ -21,6 +21,12 @@ export default function Home() {
       score: 5,
       time: 3,
     },
+    {
+      name: "Promise Sequence",
+      path: "promise-sequence",
+      score: 8,
+      time: 2,
+    },
   ];
   return (
     <main className="flex min-h-screen flex-col items-center p-4 lg:p-24">
