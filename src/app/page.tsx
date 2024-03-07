@@ -27,6 +27,12 @@ export default function Home() {
       score: 8,
       time: 2,
     },
+    {
+      name: "Page Modifiers HOC",
+      path: "page-modifiers-hoc",
+      score: 13,
+      time: 16,
+    },
   ];
   return (
     <main className="flex min-h-screen flex-col items-center p-4 lg:p-24">

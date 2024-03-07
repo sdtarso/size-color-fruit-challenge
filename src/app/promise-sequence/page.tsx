@@ -44,7 +44,7 @@ export default function SizeFruitColor() {
 
   return (
     <div className="px-4">
-      <PageHeader title="Promise Sequence" path="promise-sequence/page.tsx" />
+      <PageHeader title="Promise Sequence" path="app/promise-sequence/page.tsx" />
       <OrderedList>
         <li>
           Create a function that takes an array of functions as its parameter.

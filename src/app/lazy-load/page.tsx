@@ -7,7 +7,7 @@ export default function SizeFruitColor() {
   const src = "https://via.placeholder.com/100";
   return (
     <div className="px-4">
-      <PageHeader title="Lazy Load Image" path="lazy-load/page.tsx" />
+      <PageHeader title="Lazy Load Image" path="app/lazy-load/page.tsx" />
       <p className="mb-4">
         This is just a simples component that lazy load images with the{" "}
         <a
