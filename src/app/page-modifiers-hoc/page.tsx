@@ -1,10 +1,10 @@
 import { BlockCode } from "@/components/atoms";
 import { PageHeader } from "@/components/organisms";
 
-export default function SizeFruitColor() {
+export default function PageModifiersHOC() {
   return (
     <div className="px-4">
-      <PageHeader title="Lazy Load Image" path="app/page-modifiers-hoc/page.tsx" />
+      <PageHeader title="Page Modifiers HOC" path="hoc/withPageModifiers.tsx" />
       <p className="mb-4">
         This is more a architetural solution, where i had to think in a way to
         add custom helmets to a site. A Helmet Need a Script tag and some config
@@ -46,12 +46,12 @@ export default function SizeFruitColor() {
       </p>
       <BlockCode>
         ...
-        <br/>
-        const Layout = withPageModifiers((...) {'=>'} {'{...}'})
-        <br/>
+        <br />
+        const Layout = withPageModifiers((...) {"=>"} {"{...}"})
+        <br />
         ...
-        <br/>
-        <br/>
+        <br />
+        <br />
         export default Layout
       </BlockCode>
     </div>

@@ -2,10 +2,6 @@ import { Helmet } from "@/components/molecules";
 import { ComponentType, useContext } from "react";
 import { SiteConfigContext } from "@/Providers";
 
-/**
- * Higher-order component (HOC) that enhances a component with the common
- * page Helmet
- */
 const withHelmet = <P extends object>(
   WrappedComponent: ComponentType<P>
 ): ComponentType<P> => {

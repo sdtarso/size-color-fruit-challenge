@@ -3,10 +3,6 @@ import { ComponentType } from "react";
 import withHelmet from "./withHelmet";
 import withSiteConfigProvider from "./withSiteConfigProvider";
 
-/**
- * Higher-order component (HOC) that enhances a component by adding the common
- * page modifiers to it.
- */
 const withPageModifiers = <P extends object>(
   WrappedComponent: ComponentType<P>
 ): ComponentType<P> => {
